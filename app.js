@@ -49,6 +49,8 @@ async function main() {
     console.log(posts);
   } catch (error) {
     console.error(error);
+  } finally{
+    console.log("clean up")
   }
 }
 
